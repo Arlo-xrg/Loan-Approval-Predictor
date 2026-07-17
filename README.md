@@ -30,7 +30,7 @@ The model evaluates applicants using 6 key financial attributes:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Loan-Approval-Predictor.git](https://github.com/YOUR_USERNAME/Loan-Approval-Predictor.git)
+   git clone [https://github.com/Arlo-xrg/Loan-Approval-Predictor.git](https://github.com/Arlo-xrg/Loan-Approval-Predictor.git)
    cd Loan-Approval-Predictor
 Install Dependencies:
 
@@ -62,13 +62,12 @@ has_default : 0
 The loan has been approved. (89.4%)
 📁 Directory Structure
 Plaintext
-├── Ai_training/
-│   └── Loan_Approval_Predictor/
-│       └── loan_dataset.csv      # Training dataset
+├── Dataset/
+│   └── loan_dataset.csv          # Training dataset  
 ├── Models/
 │   └── my_model.pkl              # Saved model binary
 ├── create_model.py               # Model training script
-├── predict.py                    # Inference script
+├── main.py                    # Inference script
 └── README.md                     # Project documentation
 🧠 Tech Stack
 Language: Python 3.10+
