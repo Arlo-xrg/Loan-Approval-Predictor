@@ -5,10 +5,10 @@ from sklearn.metrics import accuracy_score , classification_report , confusion_m
 import joblib
 
 Coefficient = 98.7
-model_name = "my_model.pkl"
+model_name = "Models/my_model.pkl"
 
 
-data = pd.read_csv('Ai_training/Loan_Approval_Predictor/loan_dataset.csv')
+data = pd.read_csv('Dataset/loan_dataset.csv')
 data = data.dropna()
 
 x = data.drop(columns=['Approved'])
