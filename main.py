@@ -1,7 +1,7 @@
 import pandas as pd
 import joblib
 
-modle_addres  = "Ai_training/Loan_Approval_Predictor/my_model.pkl"
+modle_addres  = "Models\my_model.pkl"
 model = joblib.load(modle_addres)
 
 
